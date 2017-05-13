@@ -1,3 +1,13 @@
+GIT
+  remote: git@github.com:jasmine/jasmine-gem.git
+  revision: 003c802879d7e6e5f74fcf4452969128db65dfc9
+  specs:
+    jasmine (2.6.1)
+      jasmine-core (>= 2.6.0, < 3.0.0)
+      phantomjs
+      rack (>= 1.2.1)
+      rake
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -67,11 +77,6 @@ GEM
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     i18n (0.8.1)
-    jasmine (2.6.0)
-      jasmine-core (>= 2.6.0, < 3.0.0)
-      phantomjs
-      rack (>= 1.2.1)
-      rake
     jasmine-core (2.6.1)
     jbuilder (2.6.4)
       activesupport (>= 3.0.0)
@@ -185,7 +190,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13.0)
   coffee-rails (~> 4.2)
-  jasmine
+  jasmine!
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   passenger
